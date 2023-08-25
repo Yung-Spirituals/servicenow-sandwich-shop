@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="103fecfa2fb43110da36fe1df699b67b" label="Ingredients" max_length="40" name="x_1102653_sandwi_0_ingredients" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+    </element>
+</database>

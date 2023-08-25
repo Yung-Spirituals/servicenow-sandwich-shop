@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="07ceb03e2ff43110da36fe1df699b610" label="Templates" max_length="40" name="x_1102653_sandwi_0_templates" type="collection">
+        <element label="Sandwiches" max_length="40" name="sandwiches" reference="x_1102653_sandwi_0_sandwich" type="glide_list"/>
+    </element>
+</database>

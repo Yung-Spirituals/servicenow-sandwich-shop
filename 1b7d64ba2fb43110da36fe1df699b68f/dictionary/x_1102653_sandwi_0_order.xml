@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7219b0b62ff43110da36fe1df699b683" label="Order" max_length="40" name="x_1102653_sandwi_0_order" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned to" max_length="40" name="assigned_to" type="string"/>
+        <element label="Cancellation reason" max_length="300" name="cancellation_reason" type="string"/>
+        <element label="Cancelled" max_length="40" name="cancelled" type="boolean"/>
+        <element label="Cancelled at" max_length="40" name="cancelled_at" type="glide_date_time"/>
+        <element label="Cancelled by" max_length="40" name="cancelled_by" type="string"/>
+        <element label="Completed" max_length="40" name="completed" type="boolean"/>
+        <element label="Completed at" max_length="40" name="completed_at" type="glide_date_time"/>
+        <element label="Customer" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element label="Sandwiches" max_length="40" name="sandwiches" reference="x_1102653_sandwi_0_sandwich" type="glide_list"/>
+        <element label="Total price" max_length="40" name="total_price" type="currency"/>
+    </element>
+</database>
